@@ -6,8 +6,6 @@ import { environment } from './environments/environment';
 import { AppModule } from './app/';
 import { HttpModule } from '@angular/http';
 
-import { InMemoryDataService } from './app/in-memory-data.service';
-
 if (environment.production) {
   enableProdMode();
 }
