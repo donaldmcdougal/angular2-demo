@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+.mt10 {
+  margin-top: 10px;
+}
+
+/* ==========================================================================
+make sure browsers use the pointer cursor for anchors, even with no href
+========================================================================== */
+a:hover {
+  cursor: pointer;
+}
