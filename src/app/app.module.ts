@@ -16,6 +16,10 @@ import { HeroModule } from './modules/hero/hero.module';
 import { CrisisService } from './services/crisis.service';
 import { HeroService } from './services/hero.service';
 
+// Imports for loading & configuring the in-memory web api
+//import { InMemoryBackendService } from 'angular-in-memory-web-api';
+//import { InMemoryDataService }  from './in-memory-data.service';
+
 @NgModule({
   declarations: [
     AppComponent,
